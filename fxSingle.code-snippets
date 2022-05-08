@@ -1,0 +1,15 @@
+{
+	
+	"Singleton kiritish": {
+		"scope": "dart",
+		"prefix": "fxSingle",
+		"body": [
+			"static final $1 _inctance = $1._init();",
+			"static $1 get inctance => _inctance;",
+
+
+			"$1._init();"
+		],
+		"description": "Singleton chiqarib beradi"
+	}
+}
